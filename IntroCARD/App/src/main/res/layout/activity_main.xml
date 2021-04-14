@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/ImageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/green_bar" />
+
+    <ImageView
+        android:layout_width="106dp"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/character1" />
+
+    <ImageView
+        android:layout_width="1800dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/이메일"
+        android:layout_marginTop="1dp"
+        android:src="@drawable/character2" />
+
+    <ImageView
+        android:id="@+id/ImageView2"
+        android:layout_width="200dp"
+        android:layout_height="230dp"
+        android:layout_below="@id/ImageView1"
+        android:src="@drawable/my_picture" />
+
+    <TextView
+        android:id="@+id/이름"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ImageView2"
+        android:layout_marginTop="80sp"
+        android:layout_centerHorizontal="true"
+        android:text="이요한"
+        android:textColor="#000"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/자격증1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ImageView2"
+        android:layout_below="@id/이름"
+        android:text="정보처리 기능사"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        />
+    <TextView
+        android:id="@+id/자격증2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JLPT N3,N4"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        android:layout_below="@id/자격증1"
+        android:layout_toRightOf="@id/ImageView2"
+        />
+    <TextView
+        android:id="@+id/ccc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ImageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-34dp"
+        android:textColor="#0f0"
+        android:text="------------------"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/전화번호"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ccc"
+        android:textColor="#000"
+        android:text="010-XXXX-XXXX"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/위치"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="JR Shinjuku Miraina Tower "
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:layout_below="@id/전화번호"
+        />
+    <TextView
+        android:id="@+id/직급"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JAVA 백엔드 개발자"
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_below="@id/위치"
+        />
+    <TextView
+        android:id="@+id/이메일"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ksmwy9029@naver.com"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:layout_below="@id/직급"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ImageView3"
+        android:text="L"
+        android:textStyle="bold"
+        android:textColor="#0f0"
+        android:layout_marginRight="10sp"
+        android:textSize="150sp"
+        />
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ImageView3"
+        android:layout_toRightOf="@id/TextView1"
+        android:text="I"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="20sp"
+        android:textColor="#0f0"
+        android:textSize="150sp" />
+
+    <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="10sp"
+        android:layout_toRightOf="@id/TextView2"
+        android:text="N"
+        android:textStyle="bold"
+        android:textColor="#0f0"
+        android:textSize="150sp" />
+
+    <TextView
+        android:id="@+id/TextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/ImageView3"
+        android:layout_toRightOf="@id/TextView3"
+        android:textStyle="bold"
+        android:text="E"
+        android:layout_marginLeft="10sp"
+        android:textColor="#0f0"
+        android:textSize="150sp" />
+
+    <Button
+        android:id="@+id/ImageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#0f0"
+        android:textColor="#000"
+        android:text="GO GIT HUB"
+        />
+
+</RelativeLayout>
